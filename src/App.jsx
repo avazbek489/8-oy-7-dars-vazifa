@@ -15,7 +15,7 @@ function App() {
         <Route path='/' element={<Users />} />
         <Route path='/post' element={<Post />} />
         <Route path='/paginate' element={<Paginate />} />
-        <Route path='/count' element={<Counter />} />
+        <Route path='/counter' element={<Counter />} />
         <Route path='/todo' element={<Todo />} />
         <Route path='/modal' element={<Modal />} />
         <Route path='/login' element={<Login />} />
