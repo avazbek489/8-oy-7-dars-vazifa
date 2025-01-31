@@ -2,7 +2,7 @@ import { create } from "zustand";
 
 const useLoginStore = create((set) => ({
   user: '',
-  login: (state) => set({ user: { state } }),
+  login: (username) => set({ user: { username } }),
   logout: () => set({ user: "" }),
 }));
 
